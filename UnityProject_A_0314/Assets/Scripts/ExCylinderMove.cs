@@ -29,7 +29,7 @@ public class ExCylinderMove : MonoBehaviour
         if (gameObject.transform.position.x  < -12.0f)
         { 
             gameObject.transform.position += new Vector3(24.0f, 0.0f, 0.0f); 
-        }
+        } 
 
         //X축에 24더해서 화면 오른쪽으로 이동 시켜 준다.
         
