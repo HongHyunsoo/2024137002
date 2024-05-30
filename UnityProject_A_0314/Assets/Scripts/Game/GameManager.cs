@@ -14,7 +14,6 @@ public class GameManager : MonoBehaviour
     public int BestScore;   //최고 점수
     public static event Action<int> OnPointChanged;     //점수가 변경되었을 때 이벤트를 발생시킨다.
     public static event Action<int> OnBestScoreChanged;     //최고점수가 변경되었을 때 이벤트를 발생시킨다.
-                                                        // Start is called before the first frame update
 
     public void GenObject()     //생성 관련 변수 값 변경 시켜주는 함수
     {
